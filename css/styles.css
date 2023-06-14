@@ -1,4 +1,70 @@
-.header {
+:root {
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  --main-background-color: #e5e5e5;
+  --footer-color: #f4f4fd;
+}
+
+.body {
   font-family: 'Roboto';
   font-style: normal;
+  color: var(--text-color);
+}
+.main {
+  background-color: var(--main-background-color);
+}
+.logo {
+  width: 44px;
+  height: 21px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-foot {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-color);
+}
+.contacts {
+  color: var(--text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+.main-title {
+  background-color: var(--title-color);
+}
+.foot {
+  background-color: var(--title-color);
+  color: var(--footer-color);
+}
+.title-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
