@@ -3,15 +3,25 @@
   --text-color: #434455;
   --main-background-color: #e5e5e5;
   --footer-color: #f4f4fd;
+  --header-bg-color: #ffffff;
 }
 
 .body {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   color: var(--text-color);
 }
-.main {
-  background-color: var(--main-background-color);
+
+/* header */
+.header {
+  background-color: var(--header-bg-color);
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--title-color);
 }
 .logo {
   width: 44px;
@@ -25,7 +35,58 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--title-color);
+}
+
+.header-contacts {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #404bbf;
+}
+/* main */
+.main {
+  background-color: var(--main-background-color);
+}
+.section-title {
+  background-color: var(--title-color);
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+}
+.title-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--header-bg-color);
+}
+
+.but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: var(--header-bg-color);
+}
+.section-characteristics > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* footer */
+.foot {
+  background-color: var(--title-color);
+  color: var(--footer-color);
 }
 .logo-foot {
   font-family: 'Raleway';
@@ -37,34 +98,4 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-color);
-}
-.contacts {
-  color: var(--text-color);
-}
-.contacts:hover,
-.contacts:focus {
-  color: #404bbf;
-}
-.main-title {
-  background-color: var(--title-color);
-}
-.foot {
-  background-color: var(--title-color);
-  color: var(--footer-color);
-}
-.title-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.but {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  align-items: center;
-  letter-spacing: 0.04em;
 }
