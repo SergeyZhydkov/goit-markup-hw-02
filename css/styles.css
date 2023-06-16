@@ -7,16 +7,13 @@
   --logo-color: #4d5ae5;
 }
 
-.body {
+body {
   font-family: 'Roboto' sans-serif;
-  font-style: normal;
   color: #434455;
   background-color: var(--header-bg-color);
 }
 
 .logo {
-  width: 44px;
-  height: 21px;
   font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -68,10 +65,6 @@
 }
 .hero {
   background-color: var(--title-color);
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
 }
 .hero-title {
   font-weight: 700;
@@ -180,38 +173,10 @@ color: var(--title-color);
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color);
-
-
 }
-
-
-
-
-/*  
-
-
-.rows-img {
-  list-style-type: none;
-}
-.rows-img > h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-.rows-img > p {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-*/
 
 /* footer */
 .foot {
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
   background-color: var(--title-color);
 }
 .word-color {
